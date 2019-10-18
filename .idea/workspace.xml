@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/boss_Page/Website/test_case/page_object/OcrPage.py" line="21" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="46fd6265-6f0c-430a-bf91-104b23fb5532" name="Default Changelist" comment="" />
+    <list default="true" id="46fd6265-6f0c-430a-bf91-104b23fb5532" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/model/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/model/myunit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/BasePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/LoginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/ManualPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/OcrPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/Website/test_case/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/driver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss_Page/driver/driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOSS/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOSS/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOSS/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver_win32.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver_win32/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver-v0.26.0-win64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver-v0.26.0-win64/geckodriver.exe" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +36,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1571384682350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boss_Page/Website" />
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$pytest_for_test_case_test_login_LoginTest_test_login1_normal.coverage" NAME="pytest for test_case.test_login.LoginTest.test_login1_normal Coverage Results" MODIFIED="1571385295020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boss_Page/Website" />
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$driver.coverage" NAME="driver Coverage Results" MODIFIED="1571364200713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boss_Page/driver" />
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$function.coverage" NAME="function Coverage Results" MODIFIED="1571367349251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boss_Page/Website/test_case/model" />
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$OcrPage.coverage" NAME="OcrPage Coverage Results" MODIFIED="1571377706771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boss_Page/Website/test_case/page_object" />
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$ManualPage.coverage" NAME="ManualPage Coverage Results" MODIFIED="1571384938379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boss_Page/Website/test_case/page_object" />
     <SUITE FILE_PATH="coverage/git_flins_UIAutomation$imageDemo.coverage" NAME="imageDemo Coverage Results" MODIFIED="1571027177717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$pytest_for_test_case_test_login_LoginTest.coverage" NAME="pytest for test_case.test_login.LoginTest Coverage Results" MODIFIED="1571384869880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boss_Page/Website" />
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$pytest_in_test_ocr_py.coverage" NAME="pytest in test_ocr.py Coverage Results" MODIFIED="1571370814683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boss_Page/Website" />
     <SUITE FILE_PATH="coverage/git_flins_UIAutomation$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1571047341269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOSS" />
+    <SUITE FILE_PATH="coverage/flins_UIAutomation$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1571278815576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOSS" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1177671354">
@@ -44,25 +80,44 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1716788825">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="py" value="5519" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="5519" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="1" />
+          <entry key="log" value="2" />
+          <entry key="png" value="5" />
+          <entry key="py" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="6" />
+          <entry key="Log" value="2" />
+          <entry key="Python" value="28" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BOSS/test1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
-              <folding>
-                <element signature="e#23#53#0" expanded="true" />
-                <marker date="1571047337382" expanded="true" signature="130:152" ph="..." />
-                <marker date="1571047337382" expanded="true" signature="1607:2068" ph="..." />
-                <marker date="1571047337382" expanded="true" signature="2188:4727" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,11 +126,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/util/imageDemo.py" />
+        <option value="$PROJECT_DIR$/boss_Page/driver/driver.py" />
+        <option value="$PROJECT_DIR$/boss_Page/website/test_case/page_object/BasePage.py" />
+        <option value="$PROJECT_DIR$/boss_Page/website/test_case/page_object/LoginPage.py" />
+        <option value="$PROJECT_DIR$/boss_Page/website/test_case/model/myunit.py" />
+        <option value="$PROJECT_DIR$/boss_Page/website/test_case/test_login.py" />
+        <option value="$PROJECT_DIR$/boss_Page/Website/test_case/model/function.py" />
+        <option value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/OcrConfirm.py" />
+        <option value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/LoginPage.py" />
+        <option value="$PROJECT_DIR$/boss_Page/Website/test_case/test_ocr.py" />
+        <option value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/OcrPage.py" />
         <option value="$PROJECT_DIR$/BOSS/test1.py" />
+        <option value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/BasePage.py" />
+        <option value="$PROJECT_DIR$/boss_Page/Website/test_case/test_login.py" />
+        <option value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/ManualPage.py" />
       </list>
     </option>
   </component>
@@ -85,11 +156,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="511" />
-    <option name="y" value="86" />
-    <option name="width" value="1352" />
-    <option name="height" value="897" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="800" />
+    <option name="y" value="140" />
+    <option name="width" value="1936" />
+    <option name="height" value="924" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -101,8 +175,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="git_flins_UIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_flins_UIAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="flins_UIAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flins_UIAutomation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,9 +186,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/git_ToolsCollection/lianjia" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\flins_UIAutomation\Logs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\flins_UIAutomation\util" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,8 +211,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test1">
-    <configuration name="imageDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest for test_case.test_login.LoginTest.test_login1_normal">
+    <configuration name="ManualPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="git_flins_UIAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,12 +220,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/imageDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/ManualPage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="OcrPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="git_flins_UIAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,28 +242,82 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOSS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOSS/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boss_Page/Website/test_case/page_object/OcrPage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_case.test_login.LoginTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="git_flins_UIAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boss_Page/Website" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_case.test_login.LoginTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_case.test_login.LoginTest.test_login1_normal" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="git_flins_UIAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boss_Page/Website" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_case.test_login.LoginTest.test_login1_normal&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="git_flins_UIAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boss_Page/Website" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/boss_Page/Website/test_case/test_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test1" />
-      <item itemvalue="Python.imageDemo" />
+      <item itemvalue="Python tests.pytest in test_login.py" />
+      <item itemvalue="Python tests.pytest for test_case.test_login.LoginTest.test_login1_normal" />
+      <item itemvalue="Python.OcrPage" />
+      <item itemvalue="Python tests.pytest for test_case.test_login.LoginTest" />
+      <item itemvalue="Python.ManualPage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.imageDemo" />
+        <item itemvalue="Python tests.pytest for test_case.test_login.LoginTest.test_login1_normal" />
+        <item itemvalue="Python.ManualPage" />
+        <item itemvalue="Python tests.pytest for test_case.test_login.LoginTest" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
+        <item itemvalue="Python.OcrPage" />
       </list>
     </recent_temporary>
   </component>
@@ -197,30 +334,63 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_case_test_login_LoginTest_test_login1_normal - 2019.10.18 at 15h 37m 38s.xml">
+      <configuration name="pytest for test_case.test_login.LoginTest.test_login1_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.10.18 at 15h 39m 24s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_case_test_login_LoginTest_test_login1_normal - 2019.10.18 at 15h 40m 43s.xml">
+      <configuration name="pytest for test_case.test_login.LoginTest.test_login1_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.10.18 at 15h 43m 05s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.10.18 at 15h 45m 08s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_case_test_login_LoginTest_test_login1_normal - 2019.10.18 at 15h 46m 21s.xml">
+      <configuration name="pytest for test_case.test_login.LoginTest.test_login1_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_case_test_login_LoginTest - 2019.10.18 at 15h 48m 16s.xml">
+      <configuration name="pytest for test_case.test_login.LoginTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_case_test_login_LoginTest_test_login1_normal - 2019.10.18 at 15h 49m 42s.xml">
+      <configuration name="pytest for test_case.test_login.LoginTest.test_login1_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_case_test_login_LoginTest_test_login1_normal - 2019.10.18 at 15h 54m 14s.xml">
+      <configuration name="pytest for test_case.test_login.LoginTest.test_login1_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_case_test_login_LoginTest_test_login1_normal - 2019.10.18 at 15h 55m 44s.xml">
+      <configuration name="pytest for test_case.test_login.LoginTest.test_login1_normal" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37378114" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5596529" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39696312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +403,22 @@
     <entry file="file://$PROJECT_DIR$/util/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/geckodriver.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/logger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2019-10-15 14_40_56.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="633" selection-start-line="633" selection-end-line="633" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/imageDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -240,18 +426,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BOSS/test1.py">
+    <entry file="file://C:/Python37/Lib/site-packages/selenium/webdriver/support/wait.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="240">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/driver/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#23#53#0" expanded="true" />
-            <marker date="1571047337382" expanded="true" signature="130:152" ph="..." />
-            <marker date="1571047337382" expanded="true" signature="1607:2068" ph="..." />
-            <marker date="1571047337382" expanded="true" signature="2188:4727" ph="..." />
+            <marker date="1571364196923" expanded="true" signature="70:75" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_case/model/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_report/screenshot/index.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_case/model/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#66#0" expanded="true" />
+            <marker date="1571365733698" expanded="true" signature="118:123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_case/test_ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_report/screenshot/index.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_report/screenshot/ocr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_case/page_object/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#66#0" expanded="true" />
+            <marker date="1571369902003" expanded="true" signature="114:119" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOSS/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="145" column="82" lean-forward="true" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="82" />
+          <folding>
+            <element signature="e#23#53#0" expanded="true" />
+            <marker date="1571379143475" expanded="true" signature="1731:1740" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_case/page_object/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1571383548885" expanded="true" signature="60:65" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1571384868289" expanded="true" signature="241:246" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_case/page_object/OcrPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="47" column="70" lean-forward="true" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+          <folding>
+            <element signature="e#23#66#0" expanded="true" />
+            <marker date="1571377781349" expanded="true" signature="1583:1918" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_case/page_object/ManualPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-556">
+          <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+          <folding>
+            <element signature="e#23#66#0" expanded="true" />
+            <marker date="1571385520288" expanded="true" signature="5393:5398" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss_Page/Website/test_report/screenshot/manual.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

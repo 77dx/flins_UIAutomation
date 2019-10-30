@@ -1,6 +1,10 @@
 # -*- coding:utf-8 -*-
 from selenium.webdriver.common.by import By
 from .BasePage import *
+from util.decorators import Decorators
+from util.loggers import Logger
+
+logger = Logger(logger="ManualPage").getlog()
 
 class ManualPage(Page):
     url = '/manualEvaluation'
@@ -81,8 +85,9 @@ class ManualPage(Page):
             sleep(1)
             self.find_element(*self.unmanage_detail_confirm3_loc).click()
             sleep(1)
+            logger.info('人工-处理完成')
         except Exception as e:
-            print("某一特征无法定位 %s" %e)
+            logger.error("某一特征无法定位 %s" %e)
 
     def type_unmanage_assign(self):
         self.find_element(*self.unmanage_assign_loc).click()
@@ -93,20 +98,25 @@ class ManualPage(Page):
         sleep(1)
         self.find_element(*self.unmanage_assign_confirm_loc).click()
         sleep(3)
+        logger.info('人工-指派完成')
 
     def type_receive(self):
         try:
             self.find_element(*self.receive_loc).click()
-            sleep(0.5)
-            self.find_element(*self.receive_batch_loc).click()
-            sleep(0.5)
-            self.find_element(*self.receive_batch_confirm_loc).click()
             sleep(1)
-            print('批量已领取')
+            s = self.find_elements(*self.receive_batch_loc)
+            if len(s) >0 :
+                self.find_element(*self.receive_batch_loc).click()
+                sleep(1)
+                self.find_element(*self.receive_batch_confirm_loc).click()
+                sleep(1)
+                logger.info('批量已领取')
+            else:
+                logger.warning('人工-无可领取数据')
         except Exception as e:
-            print('无数据可领取 :%s' %e)
+            logger.warning('无数据可领取 :%s' %e)
 
-
+    @Decorators.retry(3)
     def Manual_action(self):
         self.open()
         sleep(1)
@@ -114,12 +124,13 @@ class ManualPage(Page):
         self.find_element(*self.unmanage_loc).click()
         sleep(2)
         result = self.find_elements(*self.manage_number_loc)
-        print(result)
         if len(result) >= 2:
             self.type_unmanage_assign()
             self.type_unmanage_detail()
+        elif len(result) == 1:
+            self.type_unmanage_detail()
         else:
-            print('待处理数据不足两条，暂不处理')
+            logger.warning('人工-无可处理数据')
 
     manualPass_loc = (By.XPATH,'//*[@id="box"]/div[2]/div/div[3]/div[1]/a[2]')
     # loginFail_loc = (By.XPATH,'//*[@id="login_box"]/div/form/div[3]/div/button')

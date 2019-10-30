@@ -1,6 +1,10 @@
 # -*- coding:utf-8 -*-
 from selenium.webdriver.common.by import By
 from .BasePage import *
+from util.decorators import Decorators
+from util.loggers import Logger
+
+logger = Logger(logger="OcrPage").getlog()
 
 class OcrPage(Page):
     url = '/ocrConfirm'
@@ -19,15 +23,19 @@ class OcrPage(Page):
     receive_batch_loc = (By.XPATH,'//div[@id="box"]/div[2]/div/div[3]/div/label')   #批量领取
     receive_batch_confirm_loc = (By.XPATH,'//span[contains(.,"确定")]')           #领取确认
 
+    #处理的个数
+    unmanage_number_loc = (By.XPATH,'//span[contains(.,"处理")]')
+
     def type_unmanage_detail(self):
         self.find_element(*self.unmanage_loc).click()
-        sleep(1)
+        sleep(2)
         self.find_element(*self.unmanage_list_loc).click()
         sleep(2)
         self.find_element(*self.unmanage_detail_loc).click()
         sleep(1)
         self.find_element(*self.unmanage_detail_confirm_loc).click()
         sleep(3)
+        logger.info('ocr处理完成')
 
     def type_unmanage_assign(self):
         self.find_element(*self.unmanage_assign_loc).click()
@@ -38,25 +46,42 @@ class OcrPage(Page):
         sleep(1)
         self.find_element(*self.unmanage_assign_confirm_loc).click()
         sleep(3)
+        logger.info('ocr指派完成')
 
     def type_receive(self):
         try:
             self.find_element(*self.receive_loc).click()
             sleep(1)
-            self.find_element(*self.receive_batch_loc).click()
-            sleep(1)
-            self.find_element(*self.receive_batch_confirm_loc).click()
-            sleep(2)
+            s = self.find_elements(*self.receive_batch_loc)
+            if len(s) > 0:
+                self.find_element(*self.receive_batch_loc).click()
+                sleep(1)
+                self.find_element(*self.receive_batch_confirm_loc).click()
+                sleep(2)
+            else:
+                logger.info('ocr无待领取数据')
         except Exception as e:
-            print('无待领取数据 :%s' %e)
+            logger.warning('无待领取数据 :%s' %e)
 
-
-
+    @Decorators.retry(2)
     def Ocr_action(self):
-        self.open()
-        self.type_receive()
-        # self.type_unmanage_assign()
-        # self.type_unmanage_detail()
+        try:
+            self.open()
+            sleep(1)
+            self.type_receive()
+            self.find_element(*self.unmanage_loc).click()
+            sleep(2)
+            result = self.find_elements(*self.unmanage_number_loc)
+            if len(result) >= 2:
+                self.type_unmanage_detail()
+                self.type_unmanage_assign()
+            elif len(result) == 1:
+                self.type_unmanage_detail()
+            else:
+                logger.warning('ocr无可处理数据')
+        except Exception as e:
+            logger.error('元素定位错误 %s'%e)
+
 
     ocrPass_loc = (By.XPATH,'//*[@id="box"]/div[2]/div/div[3]/div[1]/a[2]')
     # loginFail_loc = (By.XPATH,'//*[@id="login_box"]/div/form/div[3]/div/button')

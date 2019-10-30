@@ -1,0 +1,5 @@
+2019-10-29 14:56:13,638 - BasePage - INFO - start the windows : / ...
+2019-10-29 14:56:13,646 - BasePage - INFO - window maximization
+2019-10-29 14:56:16,198 - LoginPage.py[line:17] - INFO: enter username
+2019-10-29 14:56:16,252 - LoginPage.py[line:21] - INFO: enter password
+2019-10-29 14:56:16,300 - LoginPage.py[line:25] - INFO: submit login

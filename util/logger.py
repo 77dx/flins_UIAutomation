@@ -46,7 +46,7 @@ class Loggers(object):
 
 
 if __name__ == "__main__":
-    txt = "关注公众号【进击的 Coder】，回复『日志代码』可以领取文章中完整的代码以及流程图"
+    txt = "hkkbb"
     log = Loggers(level='debug')
     log.logger.info(4)
     log.logger.info(5)

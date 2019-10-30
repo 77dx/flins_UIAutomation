@@ -1,6 +1,9 @@
 # -*- coding:utf-8 -*-
 from selenium.webdriver.common.by import By
 from .BasePage import *
+from util.loggers import Logger
+
+logger = Logger(logger="LoginPage").getlog()
 
 class LoginPage(Page):
     url = '/'
@@ -11,12 +14,15 @@ class LoginPage(Page):
 
     def type_username(self,username):
         self.find_element(*self.username_loc).send_keys(username)
+        logger.info('enter username')
 
     def type_password(self,password):
         self.find_element(*self.password_loc).send_keys(password)
+        logger.info('enter password')
 
     def type_submit(self):
         self.find_element(*self.submit_loc).click()
+        logger.info('submit login')
 
     def Login_action(self,username,password):
         self.open()

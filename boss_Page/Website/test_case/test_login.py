@@ -1,13 +1,21 @@
 # -*- coding:utf-8 -*-
+
+import os,sys
+# 将 项目的根目录添加到sys.path中
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
 import unittest
-from .model import myunit,function
 from .page_object.LoginPage import *
+from .model import myunit,function
 from .page_object.OcrPage import *
 from .page_object.ManualPage import *
 from .page_object.UserPage import *
 from .page_object.RolePage import *
 from time import sleep
 from util.loggers import Logger
+
+
+
 
 logger = Logger(logger="LoginTest").getlog()
 

@@ -1,0 +1,7 @@
+2019-11-29 15:57:43,351 - LoginTest - INFO - test start ...
+2019-11-29 15:57:43,351 - BasePage - INFO - start the windows : http://mp.flins.com.cn/bmspage/#/
+2019-11-29 15:57:43,354 - BasePage - INFO - window maximization
+2019-11-29 15:57:45,752 - LoginPage - INFO - enter username
+2019-11-29 15:57:45,807 - LoginPage - INFO - enter password
+2019-11-29 15:57:45,848 - LoginPage - INFO - submit login
+2019-11-29 15:57:48,174 - LoginTest - INFO - test end ...

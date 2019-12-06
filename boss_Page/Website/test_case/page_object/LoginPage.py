@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 from selenium.webdriver.common.by import By
-from .BasePage import *
+from boss_Page.Website.test_case.page_object.BasePage import *
 from util.loggers import Logger
 
 logger = Logger(logger="LoginPage").getlog()

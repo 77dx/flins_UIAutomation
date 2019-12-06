@@ -1,25 +1,28 @@
 # -*- coding:utf-8 -*-
-
 import os,sys
-# 将 项目的根目录添加到sys.path中
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+#将项目根路径添加到path
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 sys.path.append(BASE_DIR)
+
+#将boss_Page加入路径
+page_path = os.path.join(BASE_DIR,'boss_Page')
+sys.path.append(page_path)
+
 import unittest
-from .page_object.LoginPage import *
-from .model import myunit,function
-from .page_object.OcrPage import *
-from .page_object.ManualPage import *
-from .page_object.UserPage import *
-from .page_object.RolePage import *
+from boss_Page.Website.test_case.page_object.LoginPage import *
+from boss_Page.Website.test_case.model import myunit,function
+from boss_Page.Website.test_case.page_object.OcrPage import *
+from boss_Page.Website.test_case.page_object.ManualPage import *
+from boss_Page.Website.test_case.page_object.UserPage import *
+from boss_Page.Website.test_case.page_object.RolePage import *
 from time import sleep
 from util.loggers import Logger
-
-
-
 
 logger = Logger(logger="LoginTest").getlog()
 
 class LoginTest(myunit.StartEnd):
+    # @unittest.skip('test_login1_normal')
     def test_login1_normal(self):
         logger.info('test start ...')
         #首页-登录
@@ -57,4 +60,5 @@ class LoginTest(myunit.StartEnd):
 
 
 if __name__ == '__main__':
+
     unittest.main()
